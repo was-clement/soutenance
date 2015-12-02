@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'brandon_light';
+    src: url('/assets/fonts/Brandon_light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brandon_regular';
+    src: url('/assets/fonts/Brandon_reg.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brandon_bold';
+    src: url('/assets/fonts/Brandon_bld.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'blanch_caps';
+    src: url('/assets/fonts/BLANCH_CAPS.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'din';
+    src: url('/assets/fonts/din_std.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'avenir_light';
+    src: url('/assets/fonts/avenir_light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'avenir_black';
+    src: url('/assets/fonts/avenir_black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  background: #F1ECED;
+}
+.reveal section{
+  font-family: 'avenir_light';
+  font-size: 1.3em;
+  color: #70464C;
+}
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4{
+  font-family: 'din';
+  text-transform: none;
+  color: #593c4f;
+}
+.reveal h1{font-size: 2.5em;}
+.reveal h2{font-size: 2em;margin: 0 0 80px 0}
+.reveal h3{font-size: 1.4em;}
+.reveal section img{
+  margin: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.reveal a{
+  color: inherit;
+  padding: 10px 6px 7px 7px;
+}
+.reveal a:hover{
+  color: #F1ECED;
+  background: #70464C;
+}
+large{
+  font-family: 'avenir_black';
+}
+.reveal .progress span{
+    background: #593c4f;
+}
+.reveal .logos{
+  margin-top: 70px;
+}
+.reveal .logos img{
+  display: inline-block;
+  max-height: 60px;
+  vertical-align: middle;
+}
+.reveal .logos img:nth-child(2){
+  max-height: 140px;
+}
+.reveal .logos img + img{
+  margin-left: 80px;
+}
+.reveal .credits{
+  margin-top: 100px;
+  font-size: 0.7em;
+}
+.reveal .credits a + a{
+  margin-left: 30px;
+}
+.reveal .annexes{
+  top: 0 !important;
+}
+.reveal .annexes a{
+  background: #593c4f;
+  color: #fff;
+  padding: 20px 20px 0px 20px;
+  display: inline-block;
+}
+.reveal .overlay{
+  height: 500px;
+  margin-top: 40px;;
+  opacity: 1;
+  visibility: visible;
+  /*z-index: 1;*/
+  width: 40px;
+  /*position: relative;*/
+}
+.reveal .overlay.meditation{
+  /*background: -webkit-linear-gradient(top, rgba(168,223,18,1) 0%, rgba(168,223,18,0.37) 63%, rgba(168,223,18,0) 100%);
+  background: linear-gradient(to bottom, rgba(168,223,18,0.8) 0%, rgba(168,223,18,0.5) 50%, rgba(168,223,18,0) 100%);*/
+}
+.reveal .overlay.attention{
+  /*background: -webkit-linear-gradient(top, rgba(235,0,140,0) 0%, rgba(235,0,140,0.37) 37%, rgba(235,0,140,1) 100%);
+  background: linear-gradient(to bottom, rgba(235,0,140,0) 0%, rgba(235,0,140,0.8) 50%, rgba(235,0,140,0.8) 100%);*/
+}
+.reveal .overlay p{position: absolute; font-size: 25px; margin-left: 5px;}
+.reveal .overlay.attention p{bottom: -54px; color: #EB008C}
+.reveal .overlay.meditation p{top: -54px;color: #A8DF12}
